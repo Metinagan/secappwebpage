@@ -88279,10 +88279,10 @@ else s.r="Eski \u2192 Yeni"
 s.Go()},
 $S:0}
 A.and.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k=null,j="dd MMM yyyy HH:mm",i=this.a,h=i.e[b],g=A.eR(t.l.a(h.h(0,"createdtime")).gfA()),f=t.Cc,e=f.a(h.h(0,"startdate")),d=e==null?k:A.eR(e.gfA())
-f=f.a(h.h(0,"enddate"))
-s=f==null?k:A.eR(f.gfA())
-switch(h.h(0,"taskstate")){case 1:r=B.oP
+$2(a,b){var s,r,q,p,o,n,m=null,l="dd MMM yyyy HH:mm",k=this.a,j=k.e[b],i=A.eR(t.l.a(j.h(0,"createdtime")).gfA()),h=t.Cc,g=h.a(j.h(0,"startdate")),f=g==null?m:A.eR(g.gfA())
+h=h.a(j.h(0,"enddate"))
+s=h==null?m:A.eR(h.gfA())
+switch(j.h(0,"taskstate")){case 1:r=B.oP
 q=B.kT
 break
 case 2:r=B.oO
@@ -88295,17 +88295,15 @@ case 0:r=B.oJ
 q=B.di
 break
 default:r=B.oL
-q=B.m}f=A.bI(16)
-e=t.p
-p=A.c4(A.b([A.hU(r,q,k)],e),B.y,B.n,B.ac,k)
-o=A.eV(k,A.al(h.h(0,"title"),k,k,k,k,B.fN,k,k,k),B.O,!1,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,new A.an3(i,a,h),k,k,k,k,k,k)
-n=A.b([A.al("Olu\u015fturulma Tarihi: "+A.hK(j).fZ(g),k,k,k,k,A.cf(k,k,B.m,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k)],e)
-m=d!=null
-if(m)n.push(A.al("Ba\u015flang\u0131\xe7 Tarihi: "+A.hK(j).fZ(d),k,k,k,k,A.cf(k,k,B.jA,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k))
-l=s!=null
-if(l)n.push(A.al("Biti\u015f Tarihi: "+A.hK(j).fZ(s),k,k,k,k,A.cf(k,k,B.h7,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k))
-if(m&&l)n.push(A.KQ(new A.an4(i),i.kV(h.h(0,"id")),t.Tu))
-return A.iA(A.Ls(!1,k,k,k,!0,k,!0,!1,p,k,k,!1,k,k,k,A.bA(n,B.ab,B.n,B.z,B.F),k,o,A.c4(A.b([A.fJ(k,k,A.hU(B.HL,B.cO,k),k,k,new A.an5(i,a,h),k,k,k),A.fJ(k,k,A.hU(B.hQ,B.di,k),k,k,new A.an6(i,a,h),k,k,k)],e),B.y,B.n,B.ac,k),k),k,3,B.f2,k,new A.bF(f,B.l))},
+q=B.m}h=A.bI(16)
+g=t.p
+p=A.c4(A.b([A.hU(r,q,m)],g),B.y,B.n,B.ac,m)
+o=A.eV(m,A.al(j.h(0,"title"),m,m,m,m,B.fN,m,m,m),B.O,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.an3(k,a,j),m,m,m,m,m,m)
+n=A.b([A.al("Olu\u015fturulma Tarihi: "+A.hK(l).fZ(i),m,m,m,m,A.cf(m,m,B.m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m)],g)
+if(f!=null)n.push(A.al("Ba\u015flang\u0131\xe7 Tarihi: "+A.hK(l).fZ(f),m,m,m,m,A.cf(m,m,B.jA,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m))
+if(s!=null)n.push(A.al("Biti\u015f Tarihi: "+A.hK(l).fZ(s),m,m,m,m,A.cf(m,m,B.h7,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m))
+n.push(A.KQ(new A.an4(k),k.kV(j.h(0,"id")),t.Tu))
+return A.iA(A.Ls(!1,m,m,m,!0,m,!0,!1,p,m,m,!1,m,m,m,A.bA(n,B.ab,B.n,B.z,B.F),m,o,A.c4(A.b([A.fJ(m,m,A.hU(B.HL,B.cO,m),m,m,new A.an5(k,a,j),m,m,m),A.fJ(m,m,A.hU(B.hQ,B.di,m),m,m,new A.an6(k,a,j),m,m,m)],g),B.y,B.n,B.ac,m),m),m,3,B.f2,m,new A.bF(h,B.l))},
 $S:84}
 A.an3.prototype={
 $0(){var s=A.kX(new A.an1(this.c),null,t.z)
@@ -88851,10 +88849,10 @@ A.apS.prototype={
 $0(){this.a.e=["newest","oldest"][this.b]},
 $S:0}
 A.apW.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k=null,j="dd MMM yyyy HH:mm",i="note",h=this.b[b],g=A.eR(t.l.a(h.h(0,"createdtime")).gfA()),f=t.Cc,e=f.a(h.h(0,"startdate")),d=e==null?k:A.eR(e.gfA())
-f=f.a(h.h(0,"enddate"))
-s=f==null?k:A.eR(f.gfA())
-switch(h.h(0,"taskstate")){case 1:r=B.oP
+$2(a,b){var s,r,q,p,o,n,m,l=null,k="dd MMM yyyy HH:mm",j="note",i=this.b[b],h=A.eR(t.l.a(i.h(0,"createdtime")).gfA()),g=t.Cc,f=g.a(i.h(0,"startdate")),e=f==null?l:A.eR(f.gfA())
+g=g.a(i.h(0,"enddate"))
+s=g==null?l:A.eR(g.gfA())
+switch(i.h(0,"taskstate")){case 1:r=B.oP
 q=B.kT
 break
 case 2:r=B.oO
@@ -88867,19 +88865,18 @@ case 0:r=B.oJ
 q=B.di
 break
 default:r=B.oL
-q=B.m}f=A.bI(16)
-e=A.hU(r,q,k)
-p=A.al(h.h(0,"title"),k,k,k,k,B.fN,k,k,k)
+q=B.m}g=A.bI(16)
+f=A.hU(r,q,l)
+p=A.al(i.h(0,"title"),l,l,l,l,B.fN,l,l,l)
 o=t.p
-n=A.b([A.al("Olu\u015fturulma Tarihi: "+A.hK(j).fZ(g),k,k,k,k,k,k,k,k)],o)
-m=d!=null
-if(m)n.push(A.al("Ba\u015flang\u0131\xe7 Tarihi: "+A.hK(j).fZ(d),k,k,k,k,k,k,k,k))
+n=A.b([A.al("Olu\u015fturulma Tarihi: "+A.hK(k).fZ(h),l,l,l,l,l,l,l,l)],o)
+m=e!=null
+if(m)n.push(A.al("Ba\u015flang\u0131\xe7 Tarihi: "+A.hK(k).fZ(e),l,l,l,l,l,l,l,l))
 n.push(B.RO)
-l=s!=null
-if(l)n.push(A.al("Biti\u015f Tarihi: "+A.hK(j).fZ(s),k,k,k,k,k,k,k,k))
-if(h.h(0,i)!=null&&J.re(h.h(0,i)))n.push(A.al("NOT! : "+A.k(h.h(0,i)),k,k,k,k,k,k,k,k))
-if(m&&l){m=this.a
-n.push(A.KQ(new A.apP(m),m.kV(h.h(0,"id")),t.Tu))}return A.iA(A.Ls(!1,k,k,k,!0,k,!0,!1,e,k,k,!1,k,k,k,A.bA(n,B.ab,B.n,B.z,B.F),k,p,A.c4(A.b([A.fJ(k,k,B.Id,k,k,new A.apQ(a,h),k,k,k),A.fJ(k,k,B.Ia,k,k,new A.apR(this.a,a,h),k,k,k)],o),B.y,B.n,B.ac,k),k),k,3,B.f2,k,new A.bF(f,B.l))},
+if(s!=null)n.push(A.al("Biti\u015f Tarihi: "+A.hK(k).fZ(s),l,l,l,l,l,l,l,l))
+if(i.h(0,j)!=null&&J.re(i.h(0,j)))n.push(A.al("NOT! : "+A.k(i.h(0,j)),l,l,l,l,l,l,l,l))
+if(m){m=this.a
+n.push(A.KQ(new A.apP(m),m.kV(i.h(0,"id")),t.Tu))}return A.iA(A.Ls(!1,l,l,l,!0,l,!0,!1,f,l,l,!1,l,l,l,A.bA(n,B.ab,B.n,B.z,B.F),l,p,A.c4(A.b([A.fJ(l,l,B.Id,l,l,new A.apQ(a,i),l,l,l),A.fJ(l,l,B.Ia,l,l,new A.apR(this.a,a,i),l,l,l)],o),B.y,B.n,B.ac,l),l),l,3,B.f2,l,new A.bF(g,B.l))},
 $S:84}
 A.apP.prototype={
 $2(a,b){var s,r,q=null
